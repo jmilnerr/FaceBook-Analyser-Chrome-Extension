@@ -1,3 +1,7 @@
+#
+# PYTHON-SCRIPT TIL AT TRÆNE OG TESTE EN NN-MODEL PÅ IMDB-DATASÆTTET.
+# UDARBEJDET AF LOUIE COHEIBER OG MADS SCHØNNEMANN IFM. SRP 2020.
+#
 import pandas as pd
 import numpy as np
 import re
