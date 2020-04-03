@@ -12,4 +12,5 @@ function popup() {
 }
 
 //knyt en EventListener til "Tag tekst ..."-knappen
+//og eksekver pop()-funktionen ovenfor
 document.getElementById("fbGetMessage").addEventListener("click", popup);
