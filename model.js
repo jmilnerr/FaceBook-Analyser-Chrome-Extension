@@ -63,8 +63,10 @@ async function process_query() {
 
      //Klargør til ny forespørgsel
      arr = []
-     document.getElementById('usr_txt').disabled = false
-     document.getElementById('usr_txt').style.backgroundColor = "white";
+      
+     //Gammelt UI
+     //document.getElementById('usr_txt').disabled = false
+     //document.getElementById('usr_txt').style.backgroundColor = "white";
 
    } else { 
       alert('Tekstfeltet er tomt!') 
