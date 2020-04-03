@@ -61,7 +61,8 @@ async function process_query() {
        document.getElementById('res_bg').style.backgroundColor = "red";
      }
 
-     arr = []	// clear array for new query
+     //Klargør til ny forespørgsel
+     arr = []
      document.getElementById('usr_txt').disabled = false
      document.getElementById('usr_txt').style.backgroundColor = "white";
 
