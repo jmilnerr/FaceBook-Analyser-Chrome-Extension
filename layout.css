@@ -1,0 +1,37 @@
+body {
+  font-family: tahoma;
+  font-size: 13px;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+}
+button, textarea {
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+}
+.controls {
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+#fbGetMessage {
+  background: #3C549A;
+  color: #fff;
+}
+#fbAnalyseMessage {
+  background: #DF9E45;
+  color: #fff;
+}
+#res {
+  height: 25px;
+  width: 400px;
+  padding: 5px;
+  padding-top: 10px;
+  border: 1px dotted black;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
