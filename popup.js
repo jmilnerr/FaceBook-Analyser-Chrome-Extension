@@ -1,9 +1,9 @@
 function popup() {
 
-  //clear existing text
+  //ryd <textarea> for eksisterende tekst
   document.getElementById("fbMessageText").value = ""
 
-  //ask content.js for data we are interested in
+  //spørg content.js for data vi er interesserede i
   chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
     chrome.tabs.sendMessage(tabs[0].id, {getData: "hello"}, function(response) {
       document.getElementById("fbMessageText").value = response.serveData;
@@ -11,4 +11,5 @@ function popup() {
   });
 }
 
+//knyt en EventListener til "Tag tekst ..."-knappen
 document.getElementById("fbGetMessage").addEventListener("click", popup);
