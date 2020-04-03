@@ -1,3 +1,3 @@
 # FaceBook-Analyser-Chrome-Extension
 
-IT-produkt udviklet ifm. SRP-projekt 2020.
+IT-produkt udviklet af Louie Coheiber ifm. SRP-projekt 2020.
