@@ -6,12 +6,17 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
   </head>
   <body>
+    <!--// her vises beskeden fra FaceBook //-->
     <textarea id="fbMessageText"></textarea><br>
+    
+    <!--// grundlæggende kontrol-funktioner //-->
     <button id="fbGetMessage" class="controls">Tag tekst fra FB</button>
     <button id="fbAnalyseMessage" class="controls">Analyser</button>
+    
+    <!--// her vises resultatet af min NN-models beregninger //-->
     <div id="res"><b>Resultat:</b> { ... } </div>
     
-  <!--// Nødvendige scripts //-->
+  <!--// nødvendige scripts //-->
   <script src="popup.js"></script>
   <script src="ord.js"></script>
   <script src="model.js"></script>
