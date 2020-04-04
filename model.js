@@ -8,9 +8,10 @@ var arr = []
 var arr_size = 0
 
 async function process_query() {
-
+   
+   usr_txt = document.getElementById('fbMessageText').value;
+   
    //Gammelt UI
-   //usr_txt = document.getElementById('usr_txt').value;
    //document.getElementById('usr_txt').disabled = true
    //document.getElementById('usr_txt').style.backgroundColor = "lightgrey"
 
