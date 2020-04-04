@@ -8,9 +8,10 @@ var arr = []
 var arr_size = 0
 
 async function process_query() {
-   
+
+
    usr_txt = document.getElementById('fbMessageText').value;
-   
+
    //Gammelt UI
    //document.getElementById('usr_txt').disabled = true
    //document.getElementById('usr_txt').style.backgroundColor = "lightgrey"
@@ -56,20 +57,22 @@ async function process_query() {
      results.innerHTML = "Resultat: <b>" + score + "</b>";
 
      /* WHAT TO DO NEXT? */
-     if (score > 0.5) {
-       document.getElementById('res_bg').style.backgroundColor = "green";
-     } else {
-       document.getElementById('res_bg').style.backgroundColor = "red";
-     }
+     //if (score > 0.5) {
+     // document.getElementById('res_bg').style.backgroundColor = "green";
+     //} else {
+     // document.getElementById('res_bg').style.backgroundColor = "red";
+     //}
 
      //Klargør til ny forespørgsel
      arr = []
-      
+
      //Gammelt UI
      //document.getElementById('usr_txt').disabled = false
      //document.getElementById('usr_txt').style.backgroundColor = "white";
 
-   } else { 
-      alert('Tekstfeltet er tomt!') 
+   } else {
+      alert('Tekstfeltet er tomt!')
    }
 }
+
+document.getElementById("fbAnalyseMessage").addEventListener("click", process_query);
